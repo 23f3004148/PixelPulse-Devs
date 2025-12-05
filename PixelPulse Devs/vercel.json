@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "framework": "nextjs",
+  "buildCommand": "npm run build",
+  "installCommand": "npm ci",
+  "devCommand": "npm run dev",
+  "env": {
+    "GOOGLE_FORM_ACTION": "@google_form_action",
+    "GOOGLE_FORM_NAME_ENTRY": "@google_form_name_entry",
+    "GOOGLE_FORM_EMAIL_ENTRY": "@google_form_email_entry",
+    "GOOGLE_FORM_MESSAGE_ENTRY": "@google_form_message_entry",
+    "GOOGLE_FORM_SOURCE_ENTRY": "@google_form_source_entry"
+  }
+}
